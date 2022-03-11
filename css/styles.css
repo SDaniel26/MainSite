@@ -9,6 +9,7 @@ h1{
 
 body{
     margin: 0px;
+    text-align: center;
 }
 
 .middle-container{
@@ -21,4 +22,11 @@ body{
     background-color: blue;
     width: 200px;
     height: 200px;
+}
+.top-cloud{
+    position: absolute;
+    right: 35%;
+}
+.bottom-cloud{
+    position: absolute;
 }
