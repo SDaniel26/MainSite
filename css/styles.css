@@ -1,32 +1,38 @@
 .top-container{
     background-color: #CAF0F8;
     margin: 0px;
+    position: relative;
+    padding-top: 100px;
 }
 
 h1{
     margin: 0px;
+    font-family: 'Sacramento', cursive;
 }
-
+h2{
+    font-family: 'Merriweather', serif;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
 body{
     margin: 0px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle-container{
-    background-color: red;
-    width: 200px;
-    height: 200px;
 }
 
 .bottom-container{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
 }
 .top-cloud{
     position: absolute;
-    right: 35%;
+    right: 300px;
+    top: 50px;
 }
 .bottom-cloud{
     position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
